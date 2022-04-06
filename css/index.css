@@ -1,5 +1,7 @@
 @import url(../css/cdn.css);
 @import url(../css/card.css);
+@import url(../css/pricing.css);
+
 
 *{
 margin: 0;
@@ -21,7 +23,15 @@ font-size: 16;
     margin: auto;
 }
 .section {
+    width: 100%;
     padding: 80px 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .title {
@@ -32,7 +42,4 @@ font-size: 16;
     font-weight: 400;
     text-align: center;
     padding-bottom: 34px;
-}
-.about__heder {
-    margin: auto;
 }
